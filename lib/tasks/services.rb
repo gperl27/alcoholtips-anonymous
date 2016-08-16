@@ -1,0 +1,3 @@
+def compare
+	
+end

@@ -18,14 +18,21 @@ const Drink = React.createClass({
 		let instructions = this.props.drink.instructions;
 		let type = this.props.drink.drink_type;
 		let tip = this.props.drink.tip;
+		let tipWithQuote = <p className="quote"><i className="fa fa-quote-left fa-2x" aria-hidden="true"></i>{tip}</p>;
 
 		return(
-			<div>
-				<h3 onClick={this.handleClick}>{name}</h3>
+			<div className="drink">
+				
+				<h2>{name}</h2>
+				<hr className="line" />
+				{  this.state.active ? null: tipWithQuote }
+				{ this.state.active ? <h3>Ingredients</h3> : null}
 				<ul>{ this.state.active ? ingredientsList : null}</ul>
+				{ this.state.active ? <h3>Instructions</h3> : null}
 				<p>{ this.state.active ? instructions : null}</p>
-				<p>{ this.state.active ? type : null}</p>
-				<p>{ this.state.active ? null: tip }</p>
+				{ this.state.active ? <h3 className="type space">Type</h3> : null}
+				<span className="type">{ this.state.active ? type : null}</span>
+				<p className="text-center" onClick={this.handleClick}>  { this.state.active ? <i className="fa fa-chevron-up fa-2x" aria-hidden="true"></i> : <i className="fa fa-chevron-down fa-2x" aria-hidden="true"></i> } </p>
 			</div>
 		)
 	}

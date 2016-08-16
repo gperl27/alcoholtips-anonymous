@@ -12,9 +12,16 @@ const DrinkContainer = React.createClass({
 	},
 	render() {
 		return (
-			<div>
-				<NewDrink handleSubmit={this.handleSubmit}/>
-				<DrinkList drinks={this.state.drinks} />
+			<div className="container row">
+				<div className="col-md-2">
+					<NewDrink handleSubmit={this.handleSubmit}/>
+				</div>
+				<div className="col-md-8">
+					<DrinkList drinks={this.state.drinks} />
+				</div>
+				<div className="col-md-2">
+					<p>Hello world</p>
+				</div>
 			</div>
 		)
 	}
