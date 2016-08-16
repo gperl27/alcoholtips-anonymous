@@ -185,3 +185,13 @@ h1,h2,h3,h4,h5,h6 {
 		transition: .3s;
 		transform: scale(2,2);
 }
+
+/** TEXT INFORMATION **/
+.text {
+	background-color: $white;
+	color: #000;
+	p {
+		font-size: 20px;
+		padding: 10px 15%;
+	}
+}

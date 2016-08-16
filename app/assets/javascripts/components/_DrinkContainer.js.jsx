@@ -19,8 +19,7 @@ const DrinkContainer = React.createClass({
 				<div className="col-md-8">
 					<DrinkList drinks={this.state.drinks} />
 				</div>
-				<div className="col-md-2">
-					<p>Hello world</p>
+				<div className="col-md-2 text">
 				</div>
 			</div>
 		)
