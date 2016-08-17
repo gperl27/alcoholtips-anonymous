@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 1000px;
 	padding: 2em;
 	left: 50%;
-	top: 50%;
+	top: 45%;
 	transform: translate(-50%, -50%);
 	border: 1px solid black;
 	border-radius: 25px;
@@ -106,11 +106,11 @@ h1,h2,h3,h4,h5,h6 {
 		font-size: 18px;
 	}
 	p {
-		font-size: 20px !important;
+		font-size: 18px !important;
 		padding: 5px;
 	}
 	label {
-		font-size: 24px;
+		font-size: 22px;
 	}
 	textarea, input {
 		border: 1px solid $lightgrey;
