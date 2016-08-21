@@ -1,24 +1,18 @@
-# README
+# Alcoholtips Anonymous
+## By Greg Perlman
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Alcoholtips Anonymous is a web application that anonymously connects drinkers all over the world by agreggating drink recipes and stories or tips for those particular drinks.
 
-Things you may want to cover:
+### Live site
+<https://mighty-retreat-45175.herokuapp.com/>
 
-* Ruby version
+### Local Installation
+```sh
+$ cd drinks
+$ bin/rails s
+```
+Navigate to http://localhost:3000/
 
-* System dependencies
+### License
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT
