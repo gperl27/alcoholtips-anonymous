@@ -16,4 +16,4 @@ Navigate to http://localhost:3000/
 
 ### License
 
-MIT
+This Rails/React project is open-sourced and uses the MIT license

@@ -21,6 +21,7 @@ const DrinkContainer = React.createClass({
 				</div>
 				<div className="col-md-2 text">
 				</div>
+				<a href="https://github.com/gperl27/alcoholtips-anonymous" target="_blank"><button className='btn btn-primary docs'>Docs</button></a>
 			</div>
 		)
 	}
