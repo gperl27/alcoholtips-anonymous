@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: d9hc4ocg81soid
+  database: db/drinks_production
