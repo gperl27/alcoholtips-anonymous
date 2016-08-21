@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: postgresql-tetrahedral-24594
+  database: d9hc4ocg81soid
