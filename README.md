@@ -7,11 +7,11 @@ Alcoholtips Anonymous is a web application that anonymously connects drinkers al
 <https://mighty-retreat-45175.herokuapp.com/>
 
 ### Local Installation
-```sh
+```
 $ cd drinks
 $ bundle install
 $ bin/rails s
-```sh
+```
 Navigate to http://localhost:3000/
 
 ### License
